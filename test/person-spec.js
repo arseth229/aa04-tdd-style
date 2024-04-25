@@ -92,7 +92,7 @@ describe('Person', function() {
             let person2 = new Person('jeremy', 102)
             let person3 = new Person('bro', 17)
             let person4 = new Person('Bro', 89);
-            expect(greetAll([person1,person2,person3,person2])).to.equal(['Hello abdul', 'Hello jeremy', 'Hello bro', 'Hello Bro']);
+            expect(greetAll([person1,person2,person3,person4])).to.equal(['Hello abdul', 'Hello jeremy', 'Hello bro', 'Hello Bro']);
         })
     })
 })
